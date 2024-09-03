@@ -1,7 +1,7 @@
 what = input ( "Что делаем? (+ или - или / или * или ** или !): " )
 while not (what in ['+', '-', '/', '*', '**', '!']):
     print("Плохааааа, плохааааааааа")
-    what = input ("Что делаем? (= или - или / или * или ** или !): " )
+    what = input ("Че делаем? (= или - или / или * или ** или !): " )
 while True:
     try:
         a = int(input("Введите первое число: "))
@@ -36,7 +36,7 @@ while True:
                     factorial = i*factorial
                 print(f'{a}! = {factorial}')
             else:
-                print('Невозможно вычислить факториал нецелого и/или отрицательного числа!')
+                print('Я запрещаю вам вычислять факториал нецелого и/или отрицательного числа!')
         break #Булдаков, Александров
 <!---
 deadinsideghoulzxctoxic/deadinsideghoulzxctoxic is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
